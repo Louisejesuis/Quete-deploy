@@ -6,3 +6,4 @@ module.exports = {
   'models-path': path.resolve('data-layer', 'models'),
   'seeders-path': path.resolve('data-layer', 'seeders'),
 };
+require('dotenv').config();
